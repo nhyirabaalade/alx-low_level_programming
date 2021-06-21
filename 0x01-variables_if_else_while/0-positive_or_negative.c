@@ -2,7 +2,9 @@
 #include <stdlib.h>
 #include <time.h>
 
-
+/*
+ *positive anything is better than negative nothing
+ */
 int main(void)
 {
 	int n;
@@ -21,7 +23,7 @@ int main(void)
 		}
 		else
 		{
-			printf("%d is negavite\n", n);
+			printf("%d is negative\n", n);
 		}
 	}
 	return (0);
