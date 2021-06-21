@@ -7,9 +7,8 @@
 
 int main()
 {
-	for(int x = 'A'; x <= 'Z'; x++)
-	{
-		putchar(tolower(x));
-	}
+	char c;
+	for (c = 'a'; c<= 'z'; ++c)
+		putchar("%c", c);
 	return 0;
 }
