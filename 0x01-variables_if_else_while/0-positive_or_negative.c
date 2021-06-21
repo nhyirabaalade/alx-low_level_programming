@@ -2,10 +2,13 @@
 #include <stdlib.h>
 #include <time.h>
 
-/*
+/**
  *positive anything is better than negative nothing
  */
 int main(void)
+/*
+ *the thing
+ */
 {
 	int n;
 
